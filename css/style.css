@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p, ul{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+h1{
+    font-size: 80px;
+    line-height: 1.8em;
+} 
+h2{
+    font-size: 36px;
+    line-height: 1.8em;
+}
+p{
+    font-size: 18px;
+    line-height: 1.3em;
+}
+
+
+
+.navigation{
+    padding: 30px;
+}
+.inline-block{
+    display: inline-block;
+}
+.logo{
+    width: 20%;
+}
+nav{
+    width: 79%;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+}
+ul{
+    float: right;
+}
+li.inline-block {
+    padding: 0px 40px;
+}
+li.inline-block:last-child {
+    padding-right: 0px;
+}
+
+.heroImg{
+    background: url("https://picsum.photos/seed/picsum/1920/700");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.content{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+.button {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+footer{
+    padding: 30px;
+}
+.copyRight{
+    width: 78%;
+    text-align: right;
+}
+
+
