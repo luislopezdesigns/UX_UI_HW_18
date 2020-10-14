@@ -294,7 +294,12 @@ footer img{
     text-align: right;
     font-size: 14px;
 }
-
+@media only screen and (max-width: 600){
+    .flexboxContainer{
+        flex-direction: column;
+        width: 100%;
+    }
+}
 @media screen and (max-width: 50em) {
 	.flexGrid figure {
 		display: inline-block;
