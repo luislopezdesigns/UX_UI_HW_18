@@ -1,6 +1,6 @@
 
 $(window).scroll(function(){
-  $(".top").css("opacity", 1 - $(window).scrollTop() / 250);
+  $(".content").css("opacity", "1 - $(window).scrollTop() / 50");
 });
 
 /*win.scroll(function(){
